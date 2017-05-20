@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bind</title>
+</head>
+<body>
+<div id="app">
+    <ul class="pagination">
+        <li v-for="n in pageCount">
+            <a href="javascripit:void(0)" v-bind="activeNumber === n ? 'active' : ''">{{ n }}</a>
+        </li>
+    </ul>
+</div>
+<script src="../../lib/vue.js"></script>
+<script src="bind.js"></script>
+</body>
+</html>
