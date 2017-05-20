@@ -8,6 +8,7 @@ new Vue({
         yes: true,
         no: false,
         age: 28,
-        name: 'Ray'
+        name: 'Ray',
+        sex: 'male'
     }
 });
