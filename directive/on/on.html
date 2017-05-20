@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>on</title>
+</head>
+<body>
+<!-- @ 等于 v-on 事件 -->
+<div id="app">
+    <p><input type="text" v-model="message"></p>
+    <p>
+        <button @click="greet">Greet</button>
+    </p>
+    <p>
+        <button @click="say('Hi')">Hi</button>
+    </p>
+</div>
+</body>
+<script src="../../lib/vue.js"></script>
+<script src="on.js"></script>
+</html>
