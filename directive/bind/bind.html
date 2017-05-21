@@ -8,7 +8,7 @@
 <div id="app">
     <ul class="pagination">
         <li v-for="n in pageCount">
-            <a href="javascripit:void(0)" v-bind="activeNumber === n ? 'active' : ''">{{ n }}</a>
+            <a href="javascripit:void(0)" :class="activeNumber === n ? 'active' : ''">{{ n }}</a>
         </li>
     </ul>
 </div>
